@@ -45,6 +45,11 @@ body {
   border-radius: 16px;
   backdrop-filter: blur(10px);
   max-width: 600px;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.03);
 }
 
 @media (max-width: 768px) {
