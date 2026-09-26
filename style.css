@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2 { 
+  margin-bottom: 15px;
+}
+
+p {
+  line-height: 1.6;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  color: rgb(0, 0, 0);
+  background: #faf7f4;
+}
+
+.parallax {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 85vh;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.hero, .background {
+  background-image: url("images/background.jpeg");
+}
+
+.content {
+  min-height: 60vh;
+  text-align: center;
+  padding: 60px;
+  background: rgba(248, 194, 194, 0.75);
+}
+
+.card {
+  background: rgba(248, 194, 194, 0.75);
+  padding: 40px;
+  border-radius: 16px;
+  backdrop-filter: blur(10px);
+  max-width: 600px;
+}
+
+@media (max-width: 768px) {
+  .content {
+    padding: 40px 20px;
+  }
+
+  .card {
+    padding: 25px;
+    margin: 20px;
+  }
+
+  .parallax {
+    height: 70vh;
+  }
+}
