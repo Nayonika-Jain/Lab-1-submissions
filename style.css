@@ -34,6 +34,10 @@ body {
 
 .content {
   min-height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   padding: 60px;
   background: rgba(248, 194, 194, 0.75);
